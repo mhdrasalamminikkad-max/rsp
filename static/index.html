@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. Noushad Babu — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- Background elements -->
+  <div class="wave" aria-hidden="true"></div>
+  <div class="dna-particle" style="top:10%;left:10%;animation-delay:0s" aria-hidden="true"></div>
+  <div class="dna-particle" style="top:20%;left:80%;animation-delay:1s" aria-hidden="true"></div>
+  <div class="dna-particle" style="top:60%;left:20%;animation-delay:2s" aria-hidden="true"></div>
+  <div class="dna-particle" style="top:80%;left:70%;animation-delay:3s" aria-hidden="true"></div>
+  <div class="dna-particle" style="top:40%;left:90%;animation-delay:4s" aria-hidden="true"></div>
+  <div class="lotus-glow" style="top:30%;left:50%;transform:translateX(-50%)" aria-hidden="true"></div>
+  <div class="lotus-glow" style="top:70%;left:20%;animation-delay:2s" aria-hidden="true"></div>
+  <div class="lotus-glow" style="top:20%;left:80%;animation-delay:4s" aria-hidden="true"></div>
+
+  <!-- Hero -->
+  <section id="hero" class="section" style="min-height:100vh;display:flex;align-items:center;justify-content:center;">
+    <div class="container text-center">
+      <div class="glass-card neon-border prism-effect card animate-float" data-testid="harvard-badge" style="display:inline-flex;align-items:center;border-radius:9999px;gap:12px;padding:12px 20px;margin-bottom:24px;">
+        <span class="text-accent" style="font-size:18px;">🏛️</span>
+        <span style="font-size:14px;font-weight:500;">Harvard University • PhD Medical Biochemistry</span>
+      </div>
+
+      <h1 data-testid="main-title"><span class="holographic-text" style="font-weight:800;font-size:clamp(40px,10vw,96px);">Dr. Noushad Babu</span></h1>
+      <div class="muted" data-testid="subtitle" style="font-size:clamp(18px,3vw,28px);margin:16px 0 32px;">
+        <span style="display:block;">PhD in Medical Biochemistry</span>
+        <span class="text-accent" style="display:block;">Ayurvedic Specialist • Entrepreneur</span>
+      </div>
+
+      <div class="animate-helix" style="position:relative;width:384px;height:384px;margin:0 auto;opacity:.2;">
+        <div style="position:absolute;inset:0;border:2px solid var(--accent);border-radius:9999px;"></div>
+        <div style="position:absolute;top:25%;left:25%;width:50%;height:50%;border:2px solid var(--secondary);border-radius:9999px;"></div>
+        <div style="position:absolute;top:33%;left:33%;width:33%;height:33%;border:2px solid var(--primary);border-radius:9999px;"></div>
+      </div>
+
+      <div style="margin-top:32px;">
+        <button class="glass-card neon-border prism-effect btn" data-testid="cta-explore-portfolio"><span class="holographic-text">Explore Portfolio</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="glass-card neon-border prism-effect card animate-float">
+        <h2 class="text-center" data-testid="about-title"><span class="holographic-text">About Me</span></h2>
+        <div class="grid grid-2" style="align-items:center;">
+          <div style="display:grid;gap:16px;">
+            <p class="muted" data-testid="about-description-1">A distinguished medical professional bridging the ancient wisdom of Ayurveda with cutting-edge biochemical research. With a PhD from Harvard University and extensive expertise in traditional healing practices, I specialize in creating holistic treatment approaches that honor both scientific rigor and time-tested natural remedies.</p>
+            <p class="muted" data-testid="about-description-2">Based in the serene landscapes of Kerala, I've dedicated my practice to developing innovative herbal formulations and therapeutic protocols that have transformed the lives of over 1000 patients worldwide.</p>
+            <div style="display:flex;gap:16px;flex-wrap:wrap;">
+              <div class="glass-card card animate-pulse-glow" style="padding:16px;border-radius:16px;text-align:center;">
+                <div class="text-accent" style="font-size:24px;">🩺</div>
+                <p class="muted" style="margin-top:6px;">Medical</p>
+              </div>
+              <div class="glass-card card animate-pulse-glow" style="padding:16px;border-radius:16px;text-align:center;animation-delay:.5s;">
+                <div class="text-secondary" style="font-size:24px;">🌿</div>
+                <p class="muted" style="margin-top:6px;">Herbal</p>
+              </div>
+              <div class="glass-card card animate-pulse-glow" style="padding:16px;border-radius:16px;text-align:center;animation-delay:1s;">
+                <div class="text-primary" style="font-size:24px;">🧬</div>
+                <p class="muted" style="margin-top:6px;">Biochemistry</p>
+              </div>
+            </div>
+          </div>
+          <div style="position:relative;">
+            <img src="./images/20250907_192144_1757253199607.jpg" alt="Dr. Noushad Babu - Professional Portrait" class="glass-card" style="border-radius:24px; max-width:420px; margin:0 auto;">
+            <div style="position:absolute;inset:0;border-radius:24px;background:linear-gradient(135deg, hsl(152 81% 56% / .2), transparent, hsl(215 84% 56% / .2));"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="text-center" data-testid="education-title"><span class="holographic-text">Education & Qualifications</span></h2>
+      <div style="position:relative;margin-top:24px;">
+        <div style="position:absolute;left:50%;transform:translateX(-50%);width:4px;height:100%;background:linear-gradient(to bottom, var(--accent), var(--secondary), var(--primary));opacity:.6;border-radius:9999px;"></div>
+        <div style="display:grid;gap:64px;">
+          <div class="grid" style="grid-template-columns:1fr auto 1fr;align-items:center;">
+            <div style="text-align:right;padding-right:24px;">
+              <div class="glass-card neon-border prism-effect card animate-float">
+                <h3 class="text-accent" data-testid="education-title-0">PhD in Medical Biochemistry</h3>
+                <p class="text-secondary" data-testid="education-institution-0">Harvard University, England</p>
+                <p class="muted" data-testid="education-description-0">Advanced research in molecular biochemistry and therapeutic applications</p>
+              </div>
+            </div>
+            <div class="timeline-node animate-glow" data-testid="timeline-node-0">🎓</div>
+            <div></div>
+          </div>
+
+          <div class="grid" style="grid-template-columns:1fr auto 1fr;align-items:center;">
+            <div></div>
+            <div class="timeline-node animate-glow" data-testid="timeline-node-1">📜</div>
+            <div style="padding-left:24px;">
+              <div class="glass-card neon-border prism-effect card animate-float">
+                <h3 class="text-secondary" data-testid="education-title-1">BAMS Degree</h3>
+                <p class="text-accent" data-testid="education-institution-1">Bachelor of Ayurvedic Medicine & Surgery</p>
+                <p class="muted" data-testid="education-description-1">Comprehensive study of traditional Ayurvedic principles and practices</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid" style="grid-template-columns:1fr auto 1fr;align-items:center;">
+            <div style="text-align:right;padding-right:24px;">
+              <div class="glass-card neon-border prism-effect card animate-float">
+                <h3 class="text-primary" data-testid="education-title-2">Panchakarma Certification</h3>
+                <p class="text-secondary" data-testid="education-institution-2">Advanced Detoxification Therapy</p>
+                <p class="muted" data-testid="education-description-2">Specialized training in five-fold purification treatments</p>
+              </div>
+            </div>
+            <div class="timeline-node animate-glow" data-testid="timeline-node-2">🧖‍♀️</div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specializations -->
+  <section id="specializations" class="section">
+    <div class="container">
+      <h2 class="text-center" data-testid="specializations-title"><span class="holographic-text">Specializations</span></h2>
+      <div class="grid grid-3">
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--accent), var(--secondary));">🧖</div>
+          <h3 data-testid="specialization-title-0">Panchakarma</h3>
+          <p class="muted" data-testid="specialization-description-0">Five-fold purification therapy for complete detoxification and rejuvenation</p>
+        </div>
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--secondary), var(--primary));">🌿</div>
+          <h3 data-testid="specialization-title-1">Herbal Therapy</h3>
+          <p class="muted" data-testid="specialization-description-1">Custom herbal formulations using traditional knowledge and modern science</p>
+        </div>
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--primary), var(--accent));">⚛️</div>
+          <h3 data-testid="specialization-title-2">Molecular Biochemistry</h3>
+          <p class="muted" data-testid="specialization-description-2">Advanced research in cellular mechanisms and therapeutic applications</p>
+        </div>
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--accent), var(--primary));">🫀</div>
+          <h3 data-testid="specialization-title-3">Stress Management</h3>
+          <p class="muted" data-testid="specialization-description-3">Holistic approaches to mental wellness and emotional balance</p>
+        </div>
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--secondary), var(--accent));">🍎</div>
+          <h3 data-testid="specialization-title-4">Ayurvedic Nutrition</h3>
+          <p class="muted" data-testid="specialization-description-4">Personalized dietary plans based on constitution and health needs</p>
+        </div>
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--primary), var(--secondary));">🧪</div>
+          <h3 data-testid="specialization-title-5">Herbal Formulations</h3>
+          <p class="muted" data-testid="specialization-description-5">Development of innovative herbal medicines with proven efficacy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="text-center" data-testid="experience-title"><span class="holographic-text">Professional Experience</span></h2>
+      <div class="grid grid-3">
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:64px;height:64px;margin:0 auto 16px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--accent), var(--secondary));">🚀</div>
+          <h3 data-testid="experience-title-0">Founder & CEO</h3>
+          <p class="muted" data-testid="experience-company-0">Wellness Center, Amminikkad, Kerala</p>
+          <ul class="muted" style="list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px;">
+            <li data-testid="experience-achievement-0-0">✅ Established holistic wellness center</li>
+            <li data-testid="experience-achievement-0-1">✅ Developed innovative treatment protocols</li>
+            <li data-testid="experience-achievement-0-2">✅ Leading team of healthcare professionals</li>
+          </ul>
+        </div>
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:64px;height:64px;margin:0 auto 16px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--secondary), var(--primary));">🩺</div>
+          <h3 data-testid="experience-title-1">Ayurvedic Consultant</h3>
+          <p class="muted" data-testid="experience-company-1">Multiple Healthcare Institutions</p>
+          <ul class="muted" style="list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px;">
+            <li data-testid="experience-achievement-1-0">✅ Patient consultation and treatment</li>
+            <li data-testid="experience-achievement-1-1">✅ Treatment protocol development</li>
+            <li data-testid="experience-achievement-1-2">✅ Staff training and education</li>
+          </ul>
+        </div>
+        <div class="glass-card neon-border prism-effect card animate-float">
+          <div style="width:64px;height:64px;margin:0 auto 16px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--primary), var(--accent));">🔬</div>
+          <h3 data-testid="experience-title-2">Research Scientist</h3>
+          <p class="muted" data-testid="experience-company-2">Biochemistry & Herbal Medicine</p>
+          <ul class="muted" style="list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px;">
+            <li data-testid="experience-achievement-2-0">✅ Published research papers</li>
+            <li data-testid="experience-achievement-2-1">✅ Clinical trial supervision</li>
+            <li data-testid="experience-achievement-2-2">✅ International collaborations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <h2 class="text-center" data-testid="achievements-title"><span class="holographic-text">Achievements</span></h2>
+      <div class="grid grid-3" style="grid-template-columns:repeat(4,minmax(0,1fr));gap:32px;">
+        <div class="achievement-trophy neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, #FACC15, var(--accent));">🏆</div>
+          <h3 class="text-accent" data-testid="achievement-count-0">1000+</h3>
+          <p class="muted" data-testid="achievement-label-0">Patients Treated</p>
+        </div>
+        <div class="achievement-trophy neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, #FACC15, var(--secondary));">📚</div>
+          <h3 class="text-accent" data-testid="achievement-count-1">25+</h3>
+          <p class="muted" data-testid="achievement-label-1">Research Publications</p>
+        </div>
+        <div class="achievement-trophy neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, #FACC15, var(--primary));">🎤</div>
+          <h3 class="text-accent" data-testid="achievement-count-2">50+</h3>
+          <p class="muted" data-testid="achievement-label-2">International Talks</p>
+        </div>
+        <div class="achievement-trophy neon-border prism-effect card animate-float">
+          <div style="width:80px;height:80px;margin:0 auto 16px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, #FACC15, var(--accent));">⚗️</div>
+          <h3 class="text-accent" data-testid="achievement-count-3">15+</h3>
+          <p class="muted" data-testid="achievement-label-3">Herbal Formulations</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section id="quote" class="section">
+    <div class="container">
+      <div class="glass-card neon-border prism-effect card animate-float text-center" data-testid="quote-container">
+        <div style="font-size:32px;" class="text-accent">❝</div>
+        <blockquote style="font-size:clamp(22px,4vw,36px);" data-testid="quote-text"><span class="holographic-text">"Healing is not just medicine, it is balance — between tradition and science."</span></blockquote>
+        <div style="width:96px;height:4px;margin:16px auto;background:linear-gradient(90deg,var(--accent),var(--secondary),var(--primary));border-radius:9999px;"></div>
+        <cite class="muted" style="font-style:normal;" data-testid="quote-attribution">— Dr. Noushad Babu</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business -->
+  <section id="business" class="section">
+    <div class="container">
+      <h2 class="text-center" data-testid="business-title"><span class="holographic-text">Business Location</span></h2>
+      <div class="glass-card neon-border prism-effect card">
+        <div class="grid grid-2" style="align-items:center;">
+          <div style="display:grid;gap:16px;">
+            <h3 class="text-accent" data-testid="business-center-title">Wellness Center</h3>
+            <p class="muted" data-testid="business-description">Located in the heart of Perinthalmanna, Amminikkad, Kerala - surrounded by the natural beauty and traditional healing heritage of God's Own Country. Our center combines modern medical facilities with traditional Ayurvedic treatment spaces.</p>
+            <div style="display:grid;gap:12px;">
+              <div style="display:flex;align-items:center;gap:12px;" data-testid="business-address"><span class="text-accent">📍</span><span>Amminikkad, Perinthalmanna, Kerala</span></div>
+              <div style="display:flex;align-items:center;gap:12px;" data-testid="business-phone"><span class="text-secondary">📞</span><span>+91 XXX XXX XXXX</span></div>
+              <div style="display:flex;align-items:center;gap:12px;" data-testid="business-email"><span class="text-primary">✉️</span><span>contact@drnoushad.com</span></div>
+            </div>
+          </div>
+          <div>
+            <svg viewBox="0 0 400 600" style="width:100%;max-width:420px;display:block;margin:0 auto;filter:drop-shadow(0 0 20px hsl(152 81% 56% / .6));" data-testid="kerala-map">
+              <defs>
+                <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="hsl(152,81%,56%)" stop-opacity="0.8" />
+                  <stop offset="50%" stop-color="hsl(215,84%,56%)" stop-opacity="0.6" />
+                  <stop offset="100%" stop-color="hsl(262,83%,56%)" stop-opacity="0.8" />
+                </linearGradient>
+              </defs>
+              <path d="M 80 50 L 120 40 L 180 60 L 220 80 L 250 120 L 280 180 L 290 240 L 300 300 L 310 360 L 300 420 L 280 480 L 250 520 L 200 540 L 150 550 L 100 530 L 80 500 L 70 460 L 60 400 L 50 340 L 55 280 L 65 220 L 70 160 L 75 100 Z" fill="url(#mapGradient)" stroke="rgba(34,197,94,0.8)" stroke-width="2" class="animate-pulse-glow"></path>
+              <circle cx="200" cy="200" r="8" fill="hsl(152,81%,56%)" class="animate-glow">
+                <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"></animate>
+              </circle>
+              <text x="220" y="205" fill="hsl(152,81%,56%)" font-size="14" font-weight="bold">Perinthalmanna</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container text-center">
+      <h2 data-testid="contact-title"><span class="holographic-text">Get In Touch</span></h2>
+      <p class="muted" style="font-size:20px;margin-bottom:24px;" data-testid="contact-description">Ready to begin your journey towards holistic wellness? Let's explore how traditional Ayurvedic wisdom combined with modern medical science can transform your health.</p>
+      <div class="glass-card neon-border prism-effect card">
+        <div class="grid grid-3">
+          <div>
+            <div style="width:64px;height:64px;margin:0 auto 8px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--accent), var(--secondary));">📞</div>
+            <h3 data-testid="contact-title-0">Phone</h3>
+            <p class="muted" data-testid="contact-info-text-0">+91 XXX XXX XXXX</p>
+          </div>
+          <div>
+            <div style="width:64px;height:64px;margin:0 auto 8px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--secondary), var(--primary));">✉️</div>
+            <h3 data-testid="contact-title-1">Email</h3>
+            <p class="muted" data-testid="contact-info-text-1">contact@drnoushad.com</p>
+          </div>
+          <div>
+            <div style="width:64px;height:64px;margin:0 auto 8px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--primary), var(--accent));">📍</div>
+            <h3 data-testid="contact-title-2">Location</h3>
+            <p class="muted" data-testid="contact-info-text-2">Kerala, India</p>
+          </div>
+        </div>
+        <div style="margin-top:24px;">
+          <button class="glass-card neon-border prism-effect btn" data-testid="button-schedule-consultation"><span class="holographic-text">Schedule Consultation</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section" style="padding:48px 16px;border-top:1px solid rgba(255,255,255,0.2);">
+    <div class="container text-center">
+      <p class="muted">© 2024 Dr. Noushad Babu. All rights reserved. • Bridging Ancient Wisdom with Modern Science</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
